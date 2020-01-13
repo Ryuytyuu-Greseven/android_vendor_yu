@@ -65,6 +65,7 @@ PRODUCT_COPY_FILES += \
     vendor/yu/msm8953-common/proprietary/lib/libwfdservice.so:system/lib/libwfdservice.so \
     vendor/yu/msm8953-common/proprietary/lib/libwfdsm.so:system/lib/libwfdsm.so \
     vendor/yu/msm8953-common/proprietary/lib/libwfduibcinterface.so:system/lib/libwfduibcinterface.so \
+    vendor/yu/msm8953-common/proprietary/vendor/lib/librmnetctl.so:$(TARGET_COPY_OUT_VENDOR)/lib/librmnetctl.so \
     vendor/yu/msm8953-common/proprietary/lib/libwfduibcsink.so:system/lib/libwfduibcsink.so \
     vendor/yu/msm8953-common/proprietary/lib/libwfduibcsinkinterface.so:system/lib/libwfduibcsinkinterface.so \
     vendor/yu/msm8953-common/proprietary/lib/libwfduibcsrc.so:system/lib/libwfduibcsrc.so \
@@ -84,6 +85,7 @@ PRODUCT_COPY_FILES += \
     vendor/yu/msm8953-common/proprietary/lib64/lib-imsvtutils.so:system/lib64/lib-imsvtutils.so \
     vendor/yu/msm8953-common/proprietary/lib64/libFileMux.so:system/lib64/libFileMux.so \
     vendor/yu/msm8953-common/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
+    vendor/yu/msm8953-common/proprietary/vendor/lib64/librmnetctl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librmnetctl.so \
     vendor/yu/msm8953-common/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/yu/msm8953-common/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
     vendor/yu/msm8953-common/proprietary/lib64/libmmosal.so:system/lib64/libmmosal.so \
